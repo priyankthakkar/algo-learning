@@ -7,7 +7,7 @@ class Scratch {
     public static void main(String[] args) {
         LocalDateTime startTime = LocalDateTime.now();
         Fibonacci fibonacci = new Fibonacci();
-        int fibonacciNumberPosition =2000;
+        int fibonacciNumberPosition = 50;
         System.out.printf("%d th fibonacci number is %d%n", fibonacciNumberPosition, fibonacci.getNthFibonacciNumber(fibonacciNumberPosition));
         LocalDateTime endTime = LocalDateTime.now();
         Duration d = Duration.between(startTime, endTime);
